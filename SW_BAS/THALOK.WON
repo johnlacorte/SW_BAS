@@ -1,0 +1,231 @@
+Thalok
+Epoch
+Archaic Weapons
+ 0 
+Blaster
+ 6 
+Blaster Artillery
+ 0 
+Bowcaster
+ 0 
+Bows
+ 0 
+Brawling Parry
+ 1 
+Dodge
+ 6 
+Firearms
+ 8 
+Grenade
+ 7 
+Lightsaber
+-2 
+Melee Combat
+ 0 
+Melee Parry
+ 1 
+Missile Weapons
+ 0 
+Pick Pocket
+ 0 
+Running
+ 0 
+Thrown Weapons
+ 5 
+Vehicle Blasters
+ 0 
+Alien Species
+-1 
+Bureaucracy
+-1 
+Business
+-1 
+Cultures
+-1 
+Intimidation
+-1 
+Languages
+-1 
+Law Enforcement
+-1 
+Planetary Systems
+-1 
+Streetwise
+-1 
+Survival
+-1 
+Value
+-1 
+Willpower
+-1 
+Archaic Starship Piloting
+-1 
+Astrogation
+ 0 
+Beast Riding
+-1 
+Capital Ship Gunnery
+-1 
+Capital Ship Piloting
+-1 
+Capital Ship Shields
+-1 
+Communications
+-1 
+Ground Vehicle Operation
+-1 
+Hover Vehicle Operation
+ 1 
+Powersuit Operation
+-1 
+Repulsorlift Operation
+-1 
+Sensors
+-1 
+Space Transports
+-1 
+Starfighter Piloting
+-1 
+Starship Gunnery
+ 4 
+Starship Shields
+-1 
+Swoop Operation
+-1 
+Walker Operation
+-1 
+Bargain
+-1 
+Command
+-1 
+Con
+-1 
+Forgery
+-1 
+Gambling
+-1 
+Hide
+-1 
+Investigation
+-1 
+Persuasion
+-1 
+Search
+-1 
+Sneak
+-1 
+Brawling
+-1 
+Climbing/Jumping
+ 3 
+Lifting
+-1 
+Stamina
+-1 
+Swimming
+-1 
+Armor Repair
+ 0 
+Blaster Repair
+-1 
+Capital Starship Repair
+-1 
+Capital Starship Weapon Repair
+-1 
+Computers
+ 0 
+Demolition
+-1 
+Droid Programming
+-1 
+Droid Repair
+ 1 
+First Aid
+-1 
+Ground Vehicle Repair
+-1 
+Hover Vehicle Repair
+-1 
+Medicine
+-2 
+Repulsorlift Repair
+-1 
+Security
+-1 
+Space Transports Repair
+-1 
+Starfighter Repair
+ 2 
+Starship Weapon Repair
+-1 
+Walker Repair
+-1 
+Dexterity
+ 0 
+Knowledge
+-1 
+Mechanical
+-1 
+Perception
+-1 
+Strength
+-1 
+Technical
+-1 
+enmap.bas
+ 264168 
+Blaster Rifle
+ 6            -2             0            -10            12            4             0 
+Endor
+Frag Grenade
+Frag Grenade
+Frag Grenade
+Medpac
+Detonite-Pack
+
+Frag Grenade
+Frag Grenade
+SC-75 Rifle
+Lightsaber
+enmap.bas
+Battle suit
+ 4             0            -1            -6             1968          6525         -1             4            -2 
+seriously wounded
+
+Okay
+ 6             8 
+ 0             0            -1            -4            -1 
+-1             1            -3             0            -3 
+-1             0            -1             0            -1 
+ 0            -1            -1            -1             0 
+-1            -2             0             0             0 
+Frag Grenade
+Frag Grenade
+Frag Grenade
+Frag Grenade
+Thermal Detonator
+Thermal Detonator
+Room-key
+Glowrod
+Glowrod
+
+Droid parts
+Medpac
+modified Blaster Rifle
+Thermal Detonator
+
+Thermal Detonator
+Thermal Detonator
+Frag Grenade
+Frag Grenade
+Frag Grenade
+Frag Grenade
+
+
+
+
+
+
+
+
+Cyborg-controller

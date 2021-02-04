@@ -1,0 +1,70 @@
+start:
+CLS
+SCREEN 12: p = 50
+LINE (600, 200 + p)-(50, 250 + p)
+LINE (600, 200 + p)-(50, 170 + p)
+LINE -(70, 200 + p)
+LINE -(50, 250 + p)
+LINE (70, 200 + p)-(600, 200 + p)
+LINE (50, 170 + p)-(80, 130 + p)
+DRAW "r20e2r30d30l10f10r60f2r20f9"
+CIRCLE (120, 119 + p), 9
+PSET (100, 130 + p)
+DRAW "g28r50"
+LINE (120, 128 + p)-(120, 119 + p)
+LINE (115, 128 + p)-(115, 121 + p)
+LINE (125, 128 + p)-(125, 121 + p)
+PSET (65, 192 + p)
+DRAW "g2d17f2"
+PSET (57, 180 + p)
+DRAW "g3d43f3"
+CIRCLE (670, -30), 270
+REM
+COLOR 1: LOCATE 30, 8: PRINT "An Imperial Stardestroyer in Orbit around the Planet Tattooine"
+DO WHILE INKEY$ = "": LOOP
+CLS : col = 15
+rout1:
+r1:
+a = TIMER
+LOCATE 15, 27: COLOR col
+IF col = 15 THEN a = a + .5
+PRINT "BAUMI-SOFT proudly presents"
+r2:
+IF TIMER >= a + .4 THEN GOSUB cols ELSE GOTO r2
+IF col >= 0 THEN GOTO r1
+col = 15
+CLS
+rout3:
+a = TIMER
+IF col = 15 THEN a = a + .5
+LOCATE 15, 24: COLOR col
+PRINT "A Christian Baumgartner Production"
+r4:
+IF TIMER >= a + .4 THEN GOSUB cols ELSE GOTO r4
+IF col >= 0 THEN GOTO rout3
+CLS
+col = 9
+rout2:
+a = TIMER
+IF col = 9 THEN a = a + 1
+LOCATE 15, 20: COLOR col
+PRINT "STARWARS the Role-playing-game (2nd Ed.)"
+IF col = 9 THEN GOSUB schleife
+r3:
+IF TIMER >= a + .4 THEN GOSUB col2 ELSE GOTO r3
+IF col >= 0 THEN GOTO rout2
+RUN "starwars.bas"
+
+cols:
+IF col = 15 THEN col = 7: RETURN
+IF col = 7 THEN col = 8: RETURN
+IF col = 8 THEN col = 0: RETURN
+IF col = 0 THEN col = -1: RETURN
+schleife:
+DO WHILE INKEY$ = "": LOOP
+RETURN
+col2:
+IF col = 9 THEN col = 1: RETURN
+IF col = 1 THEN col = 0: RETURN
+IF col = 0 THEN col = -1: RETURN
+

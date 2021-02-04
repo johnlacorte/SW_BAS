@@ -1,0 +1,3 @@
+qbasic /run convert.bas
+@echo run the game by entering 'sw' at the prompt...
+
